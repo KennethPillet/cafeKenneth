@@ -1,0 +1,135 @@
+a{
+    text-decoration: none;
+}
+a:link, a:visited{
+    color: white;
+}
+header{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    color: white;
+}
+body, main, header{
+    margin: 0%;
+}
+.titrecafe {
+    position: relative;
+    float: left;
+    margin: 0px;
+    margin-top: 16px;
+}
+.menu {
+    text-decoration: none;
+    position: relative;
+    float: right;
+}
+li{
+    display: inline;
+    text-align: right;
+}
+.premierarticle {
+    background-image: url(mike-kenneally-tNALoIZhqVM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+.titremain h1, .titremain p {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 130px;
+}
+.deuxiemearticle{
+    display: inline;
+}
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.section1 {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.section2 {
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+.troisiemearticle {
+    background-image: url(tyler-nix-KgziKKUyJVA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+.section4section{
+    width: 320px;
+    color: black;
+    text-align: center;
+}
+footer{
+    background-color:black;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    width:100%;
+}
+.bottom {
+    display: flex;
+    justify-content: center;
+}
+#boutondécouvrir {
+    background-color:white;
+    border: none;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    border-radius: 16px;
+    padding: 16px;
+}
+#boutonreservez {
+    background-color:black;
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    border-radius: 16px;
+    padding: 16px;
+}
+/* page nous trouver */
+.map{
+    width: 50%;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+}
+#bloccontact{
+    display: flex;
+    justify-content: center;
+}
+/* page contact */
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#boutonsoumettre {
+    background-color:black;
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    border-radius: 16px;
+    padding: 16px;
+}
+.required, .input{
+    margin: 5%;
+}
